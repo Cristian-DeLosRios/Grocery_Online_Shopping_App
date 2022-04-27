@@ -2,7 +2,7 @@ const { CustomerRepository } = require("../database");
 const { FormateData, GeneratePassword, GenerateSalt, GenerateSignature, ValidatePassword } = require('../utils');
 const { APIError, BadRequestError } = require('../utils/app-errors')
 
-
+//
 // All Business logic will be here
 class CustomerService {
 
